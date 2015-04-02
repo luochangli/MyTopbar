@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.dong.mytop"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dong.mytop.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <com.dong.mytop.Topbar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        custom:leftTextBackground="@color/color_blue_lighted"
+        custom:leftText="返回"
+        custom:leftTextColor="#FFFFFF"
+        custom:rightTextBackground="@color/color_blue_lighted"
+        custom:rightText="更多"
+        custom:rightTextColor="#FFFFFF"
+        custom:titleText="自定义Topbar"
+        custom:titleTextColor="#123412"
+        custom:titleTextSize="10sp" >
+    </com.dong.mytop.Topbar>
+
+</FrameLayout>
